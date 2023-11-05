@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yan Menu Butonları Yapımı</title>
+
+    <style>
+        #my-side-nav a{
+            position: absolute;
+            left: -130px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 135px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+        #my-side-nav a:hover{
+            left: 0;
+        }
+        #home{
+            top: 20px;
+            background-color: #79a7a8;
+        }
+        #about{
+            top: 80px;
+            background-color: #f59914;
+        }
+        #services{
+            top: 200px;
+            background-color: #4caf50;
+        }
+        #blog{
+            top: 140px;
+            background-color: #2196f3;
+        }
+        #contact{
+            top: 260px;
+            background-color: #555;
+        }
+        .fas, .far{
+            margin-right: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="my-side-nav">
+        <a href="#" id="home"><i class="fas fa-home"></i>Anasayfa</a>
+        <a href="#" id="about"><i class="fas fa-user">Hakkımızda</i></a>
+        <a href="#" id="services"><i class="fas fa-th-large"></i>Hizmetler</a>
+        <a href="#" id="blog"><i class="fas fa-pencil-alt"></i>Blog</a>
+        <a href="#" id="contact"><i class="far fa-envelope"></i>Iletişim</a>
+    </div>
+</body>
+</html>
